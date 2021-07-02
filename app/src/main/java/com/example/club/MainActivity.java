@@ -1,6 +1,8 @@
 package com.example.club;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,4 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void siguientevista (View view){
+        Intent siguinetevista = new Intent(this, vista2.class);
+        startActivity(siguinetevista);
+    }
+
 }
