@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class login extends AppCompatActivity{
+public class    login extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,5 +21,7 @@ public class login extends AppCompatActivity{
         Intent Registrar = new Intent(this, registro.class);
         startActivity(Registrar);
     }
+
+
 
 }
