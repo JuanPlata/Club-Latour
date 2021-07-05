@@ -51,8 +51,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="148dp"
-        android:text="Requisitos"
+        android:layout_marginEnd="160dp"
+        android:text="Pedidos"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgLogo2" />
@@ -76,14 +76,14 @@
                 android:id="@+id/lblPedido"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Politicas de la empresa"
+                android:text="1 Hamburguesa........35"
                 android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/lblPedido2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usted se compromete a..."
+                android:text="1 CocaCola...............15"
                 android:textAlignment="center" />
         </LinearLayout>
     </ScrollView>
@@ -92,12 +92,22 @@
         android:id="@+id/btnPagar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="144dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="160dp"
         android:backgroundTint="#E94543"
-        android:onClick="reg"
-        android:text="Entendido"
+        android:text="Pagar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScrollPedidos" />
+
+    <TextView
+        android:id="@+id/lblTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:text="Total: $50"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ScrollPedidos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
