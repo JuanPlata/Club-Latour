@@ -6,35 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <ImageView
-        android:id="@+id/fondo"
-        android:layout_width="410dp"
-        android:layout_height="730dp"
-        android:layout_marginEnd="1dp"
-        android:alpha="@dimen/material_emphasis_medium"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/fondo1" />
-
-    <ImageView
-        android:id="@+id/imgtel"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/lblContacto"
-        app:srcCompat="@mipmap/telefono" />
-
-    <ImageView
-        android:id="@+id/imgper"
-        android:layout_width="32dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/lblNosotros"
-        app:srcCompat="@mipmap/persona" />
-
     <TextView
         android:id="@+id/lblNosotros"
         android:layout_width="wrap_content"
@@ -42,8 +13,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="70dp"
         android:text="Nosotros"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -54,45 +23,29 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="70dp"
         android:text="Contacto"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imglogo"
-        android:layout_width="328dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="41dp"
+        android:id="@+id/imgLogo"
+        android:layout_width="330dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/clublatoursf2" />
-
-    <Button
-        android:id="@+id/btnIniciarS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="128dp"
-        android:backgroundTint="#E94543"
-        android:onClick="Logear"
-        android:text="Iniciar Sesion"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chkRecordar" />
+        app:srcCompat="@mipmap/clublatour"
+        tools:srcCompat="@mipmap/clublatour" />
 
     <EditText
         android:id="@+id/txtPswrd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:inputType="textPassword"
         android:text="Contraseña"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUser" />
 
@@ -100,28 +53,36 @@
         android:id="@+id/chkRecordar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="152dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="148dp"
         android:backgroundTint="#FFFFFF"
         android:text="Recuerdame!"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPswrd" />
+
+    <Button
+        android:id="@+id/btnIniciarS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="144dp"
+        android:backgroundTint="#E94543"
+        android:onClick="Logear"
+        android:text="Iniciar Sesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkRecordar" />
 
     <EditText
         android:id="@+id/txtUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="79dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Usuario"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imglogo" />
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
 
     <TextView
         android:id="@+id/lblCopyright"
@@ -130,9 +91,6 @@
         android:layout_marginStart="175dp"
         android:layout_marginBottom="16dp"
         android:text="Copyright"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
