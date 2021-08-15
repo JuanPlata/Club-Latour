@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".CRUD">
+
+
+    <EditText
+        android:id="@+id/txt_nombrePersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="15dp"
+        android:hint="Nombre"/>
+
+
+    <EditText
+        android:id="@+id/txt_appPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="15dp"
+        android:hint="Apellido"/>
+
+    <EditText
+        android:id="@+id/txt_alturaPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="15dp"
+        android:hint="Altura"/>
+
+
+    <EditText
+        android:id="@+id/txt_edadPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="15dp"
+        android:hint="Edad"/>
+
+    <EditText
+        android:id="@+id/txt_actividadPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="15dp"
+        android:hint="Actividad"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lista de niños" />
+
+
+    <ListView
+        android:id="@+id/lv_datosPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgLogo2"
+        android:layout_width="330dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/clublatour"
+        tools:srcCompat="@mipmap/clublatour" />
+
+    <TextView
+        android:id="@+id/lblNosotros2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="70dp"
+        android:text="Nosotros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblContacto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="70dp"
+        android:text="Contacto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lblCopyright2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginBottom="16dp"
+        android:text="Copyright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblTitular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="148dp"
+        android:text="Requisitos"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo2" />
+
+    <ScrollView
+        android:id="@+id/ScrollPedidos"
+        android:layout_width="266dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="71dp"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitular">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblPedido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Politicas de la empresa"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/lblPedido2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usted se compromete a..."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="144dp"
+        android:backgroundTint="#E94543"
+        android:onClick="reg"
+        android:text="Entendido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScrollPedidos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

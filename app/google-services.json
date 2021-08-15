@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "871401191386",
+    "firebase_url": "https://crudregistro-default-rtdb.firebaseio.com",
+    "project_id": "crudregistro",
+    "storage_bucket": "crudregistro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871401191386:android:bb3a376a35a674293eb2e3",
+        "android_client_info": {
+          "package_name": "com.example.club"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871401191386-8dnu33b33829m6idn71ssithicsp3edo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.club",
+            "certificate_hash": "f14d6c62feea09433d0b8162b6c24ed394e7f5d3"
+          }
+        },
+        {
+          "client_id": "871401191386-s2pbt5r9p4porgedqbd3obl64edmhs5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzeV_j2jh90fNdB68MfLSQDFekf0yVKPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871401191386-s2pbt5r9p4porgedqbd3obl64edmhs5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

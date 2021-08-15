@@ -6,19 +6,15 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
-
+public class registro extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.registro);
     }
 
-    public void siguientevista (View view){
-        Intent siguinetevista = new Intent(this, CRUD.class);
-        startActivity(siguinetevista);
+    public void reg (View view){
+        Intent reg = new Intent(this, login.class);
+        startActivity(reg);
     }
-
-
-
 }
