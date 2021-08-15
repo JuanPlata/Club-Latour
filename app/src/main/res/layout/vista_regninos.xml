@@ -191,6 +191,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#E94543"
             android:text="Registrar" />
+<<<<<<< HEAD
 
         <Button
             android:id="@+id/button3"
@@ -199,6 +200,8 @@
             android:backgroundTint="#E94543"
             android:onClick="siguientevista"
             android:text="CRUD" />
+=======
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

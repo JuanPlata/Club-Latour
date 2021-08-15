@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+<<<<<<< HEAD
     <ImageView
         android:id="@+id/fondo"
         android:layout_width="410dp"
@@ -35,6 +36,8 @@
         app:layout_constraintStart_toEndOf="@+id/lblNosotros"
         app:srcCompat="@mipmap/persona" />
 
+=======
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
     <TextView
         android:id="@+id/lblNosotros"
         android:layout_width="wrap_content"
@@ -42,8 +45,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="70dp"
         android:text="Nosotros"
+<<<<<<< HEAD
         android:textColor="@color/black"
         android:textStyle="bold"
+=======
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -54,12 +60,16 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="70dp"
         android:text="Contacto"
+<<<<<<< HEAD
         android:textColor="@color/black"
         android:textStyle="bold"
+=======
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
+<<<<<<< HEAD
         android:id="@+id/imglogo"
         android:layout_width="328dp"
         android:layout_height="130dp"
@@ -81,18 +91,36 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chkRecordar" />
+=======
+        android:id="@+id/imgLogo"
+        android:layout_width="330dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/clublatour"
+        tools:srcCompat="@mipmap/clublatour" />
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
 
     <EditText
         android:id="@+id/txtPswrd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="12dp"
+=======
+        android:layout_marginTop="28dp"
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:inputType="textPassword"
         android:text="Contraseña"
+<<<<<<< HEAD
         android:textColor="@color/black"
         android:textStyle="bold"
+=======
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUser" />
 
@@ -100,6 +128,7 @@
         android:id="@+id/chkRecordar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="20dp"
         android:layout_marginEnd="152dp"
         android:backgroundTint="#FFFFFF"
@@ -109,19 +138,49 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPswrd" />
 
+=======
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="148dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Recuerdame!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPswrd" />
+
+    <Button
+        android:id="@+id/btnIniciarS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="144dp"
+        android:backgroundTint="#E94543"
+        android:onClick="Logear"
+        android:text="Iniciar Sesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkRecordar" />
+
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
     <EditText
         android:id="@+id/txtUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="79dp"
+=======
+        android:layout_marginTop="56dp"
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Usuario"
+<<<<<<< HEAD
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imglogo" />
+=======
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
 
     <TextView
         android:id="@+id/lblCopyright"
@@ -130,9 +189,14 @@
         android:layout_marginStart="175dp"
         android:layout_marginBottom="16dp"
         android:text="Copyright"
+<<<<<<< HEAD
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+=======
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+>>>>>>> 0b6f1cb5495a34b4aaad78d8f82f3997229e8dcc
 </androidx.constraintlayout.widget.ConstraintLayout>
