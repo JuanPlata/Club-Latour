@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void siguientevista (View view){
-        Intent siguinetevista = new Intent(this, CRUD.class);
+        Intent siguinetevista = new Intent(this, login.class);
         startActivity(siguinetevista);
     }
 
